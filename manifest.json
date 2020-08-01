@@ -1,16 +1,15 @@
   {
-    "name": "Getting Started Example",
+    "name": "Content Swapper Plugin",
     "version": "1.0",
-    "description": "Build an Extension!",
+    "description": "Click a button to absorb the content from a page (text and/or images), then click another button to replace that content into another page. Art!",
     "permissions": ["activeTab", "declarativeContent", "storage", "unlimitedStorage"],
-
     "background": {
       "scripts": ["background.js"],
       "persistent": false
-    },    
+    },
 
-    "content_scripts": [ 
-        { 
+    "content_scripts": [
+        {
             "js": [ "jquery-3.5.1.min.js" ],
              "matches": [ "http://*/*", "https://*/*"]
          }

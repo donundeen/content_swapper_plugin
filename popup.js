@@ -30,36 +30,61 @@ changeColor.onclick = function(element) {
 
 pullText.onclick = function(element) {
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+      /*
       chrome.tabs.executeScript(
           tabs[0].id,
           {file: "pulltext.js"});
+          */
+      chrome.scripting.executeScript({
+        files: ["jquery-3.5.1.min.js","pulltext.js"],
+        target : {tabId : tabs[0].id}
+      });
     });
 };
 
 
 setText.onclick = function(element) {
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+      /*
       chrome.tabs.executeScript(
           tabs[0].id,
           {file: "settext.js"});
+          */
+      chrome.scripting.executeScript({
+        files: ["jquery-3.5.1.min.js","settext.js"],
+        target : {tabId : tabs[0].id}
+      });
+    
     });
 };
 
 
 pullImg.onclick = function(element) {
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+      /*
       chrome.tabs.executeScript(
           tabs[0].id,
           {file: "pullimg.js"});
+      */
+      chrome.scripting.executeScript({
+        files: ["jquery-3.5.1.min.js","pullimg.js"],
+        target : {tabId : tabs[0].id}
+      });
     });
 };
 
 
 setImg.onclick = function(element) {
     chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+      /*
       chrome.tabs.executeScript(
           tabs[0].id,
           {file: "setimg.js"});
+      */
+      chrome.scripting.executeScript({
+        files: ["jquery-3.5.1.min.js","setimg.js"],
+        target : {tabId : tabs[0].id}
+      });
     });
 };
 

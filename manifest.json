@@ -1,5 +1,5 @@
   {
-    "name": "Content Swapper Plugin",
+    "name": "Pointless Web Content Swapper",
     "version": "1.1",
     "description": "Click a button to absorb the content from a page (text and/or images), then click another button to replace that content into another page. Art!",
     "permissions": ["activeTab", "scripting", "declarativeContent", "storage", "unlimitedStorage"],

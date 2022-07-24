@@ -5,7 +5,7 @@ A chrome plugin that allows you to swap content (text and/or images) between web
 um, I think the same way you install any chrome plugin. But you need to install it locally, this isn't in the chrome plugin "store"
 
 ## To install from this repo:
-- Download the zip file content_swapper_plugin.zip, or just download this whole repo
+- Download the zip file content_swapper_plugin.zip (under CODE->Download Zip), or just download/clone this whole repo
 - if you just downloaded the zip file, unzip it somewhere you'll keep it (personally I use the Documents folder)
 - in Chrome Menu, go to "Window->Extensions"
 - click "Load Unpacked"

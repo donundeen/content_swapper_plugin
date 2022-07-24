@@ -16,6 +16,9 @@ um, I think the same way you install any chrome plugin. But you need to install 
 
 ## Pin to URL bar
 - to the right of the URL, there should be an icon that looks like a puzzle piece. Hover over it and it says "Extensions" Click on it.
+<img width="374" alt="image" src="https://user-images.githubusercontent.com/606125/180655232-56f669d7-ace6-4aa3-8290-8522522cfcd8.png">
+
+
 - in the menu that drops down, you should see "Pointless Web Content Swapper"
 - next to that there should be an icon that looks like a pushpin. 📌 
 - if it's grey, click it so it turns blue
@@ -23,11 +26,14 @@ um, I think the same way you install any chrome plugin. But you need to install 
 
 # USAGE
 - click on the 💥  and you'll have a dropdown menu of 4 actions (hover over the icon to see the action text)
--- "suck up text" : This copies all the text from the webpage you're on into the extensions memory. Do this BEFORE you do "swap out text." THEN go to another Page.
--- "swap out text" : This REPLACES all the text on the current page with whatever is in the extension's memory.
--- "suck up images" : This copies all the image urls from the webpage you're on into the extensions memory. Do this BEFORE you do "swap out images." THEN go to another Page.
--- "swap out images" : This REPLACES all the image urls on the current page with whatever is in the extension's memory.
+  - "suck up text" : This copies all the text from the webpage you're on into the extensions memory. Do this BEFORE you do "swap out text." THEN go to another Page.
+  - "swap out text" : This REPLACES all the text on the current page with whatever is in the extension's memory.
+  - "suck up images" : This copies all the image urls from the webpage you're on into the extensions memory. Do this BEFORE you do "swap out images." THEN go to another Page.
+  - "swap out images" : This REPLACES all the image urls on the current page with whatever is in the extension's memory.
 
 # Warnings and caveats
 - This doesn't do anything until you start cliking the buttons in the plugin. But once you do that, the content in the page you're on will get all messed up. That's on purpose, because it's art. But restart your browser before doing anything "real" online.
 - This extension depends on web pages doing things "normally." So it won't work on all pages. You'll have to experiment a bit.
+
+
+

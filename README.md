@@ -6,8 +6,13 @@ um, I think the same way you install any chrome plugin. But you need to install 
 
 ## To install from this repo:
 - Download the zip file content_swapper_plugin.zip (under CODE->Download Zip), or just download/clone this whole repo
+<img width="936" alt="image" src="https://user-images.githubusercontent.com/606125/180791616-649e4d74-66a3-462c-b116-5b9cd615e5aa.png">
+
 - if you just downloaded the zip file, unzip it somewhere you'll keep it (personally I use the Documents folder)
 - in Chrome Menu, go to "Window->Extensions"
+- Make sure you have "Developer Mode" turned on in Chrome.
+<img width="1428" alt="image" src="https://user-images.githubusercontent.com/606125/180791788-25740127-4d34-4ae0-ba95-72675f2c8dd8.png">
+
 - click "Load Unpacked"
 - select the content_swapper_plugin FOLDER (not the zip file)
 - If the system asks you to approve some permissions, go ahead and approve them
